@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
+import { FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -59,7 +59,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div id="contact" className="bg-white py-10 px-6 md:px-12 lg:px-24">
+    <div id="contact" className="bg-white py-10 px-4 md:px-12 lg:px-24">
       <h2 className="text-center text-3xl font-bold text-gray-800 mb-8">
         Envoyez-nous un message
       </h2>
@@ -91,7 +91,7 @@ const ContactForm = () => {
         {/* Formulaire de contact */}
         <form
           onSubmit={handleSubmit}
-          className="bg-gray-50 p-6 rounded-lg shadow-md grid grid-cols-1 md:grid-cols-2 gap-6"
+          className="bg-gray-50 p-6 rounded-lg shadow-md grid grid-cols-1 gap-6"
         >
           <input
             type="text"
@@ -99,7 +99,7 @@ const ContactForm = () => {
             placeholder="Nom"
             value={formData.lastName}
             onChange={handleChange}
-            className="col-span-1 px-4 py-3 border rounded-lg bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#ffcc00]"
+            className="w-full px-4 py-3 border rounded-lg bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#ffcc00]"
             required
           />
           <input
@@ -108,7 +108,7 @@ const ContactForm = () => {
             placeholder="Prénom"
             value={formData.firstName}
             onChange={handleChange}
-            className="col-span-1 px-4 py-3 border rounded-lg bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#ffcc00]"
+            className="w-full px-4 py-3 border rounded-lg bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#ffcc00]"
             required
           />
           <input
@@ -117,7 +117,7 @@ const ContactForm = () => {
             placeholder="E-mail"
             value={formData.email}
             onChange={handleChange}
-            className="col-span-1 px-4 py-3 border rounded-lg bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#ffcc00]"
+            className="w-full px-4 py-3 border rounded-lg bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#ffcc00]"
             required
           />
           <input
@@ -126,7 +126,7 @@ const ContactForm = () => {
             placeholder="Téléphone"
             value={formData.phone}
             onChange={handleChange}
-            className="col-span-1 px-4 py-3 border rounded-lg bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#ffcc00]"
+            className="w-full px-4 py-3 border rounded-lg bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#ffcc00]"
             required
           />
           <input
@@ -135,7 +135,7 @@ const ContactForm = () => {
             placeholder="Objet"
             value={formData.subject}
             onChange={handleChange}
-            className="col-span-2 px-4 py-3 border rounded-lg bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#ffcc00]"
+            className="w-full px-4 py-3 border rounded-lg bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#ffcc00]"
             required
           />
           <textarea
@@ -143,13 +143,13 @@ const ContactForm = () => {
             placeholder="Votre Message"
             value={formData.message}
             onChange={handleChange}
-            className="col-span-2 px-4 py-3 border rounded-lg bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#ffcc00]"
+            className="w-full px-4 py-3 border rounded-lg bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#ffcc00]"
             rows="4"
             required
           ></textarea>
           <button
             type="submit"
-            className="col-span-2 bg-[#4e7dad] text-white py-3 px-6 rounded-lg hover:opacity-90 transition duration-300 text-lg font-semibold"
+            className="w-full bg-[#4e7dad] text-white py-3 px-6 rounded-lg hover:opacity-90 transition duration-300 text-lg font-semibold"
           >
             Envoyer
           </button>

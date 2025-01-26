@@ -11,11 +11,11 @@ const AboutUs = () => {
         <p className="text-lg text-gray-600 mb-8">
           La plateforme innovante conçue pour répondre à vos besoins et simplifier la gestion de votre école.
         </p>
-        <button
+        <a href="#features"
           className="bg-gradient-to-r from-[#4e7dad] to-[#4e7dad] text-white font-semibold py-3 px-6 rounded-full shadow-lg hover:opacity-90"
         >
           Nos fonctionnalités
-        </button>
+        </a>
       </div>
 
       {/* Image à droite */}
