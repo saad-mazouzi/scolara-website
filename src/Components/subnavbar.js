@@ -7,7 +7,7 @@ const SubNavbar = () => {
       {/* Left Section */}
       <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6">
         <span>
-          <a href="mailto:contact@fadaa.ma" className="flex items-center space-x-1">
+          <a href="mailto:scolara.contact@gmail.com" className="flex items-center space-x-1">
             <span>📧</span>
             <span>scolara.contact@gmail.com</span>
           </a>
