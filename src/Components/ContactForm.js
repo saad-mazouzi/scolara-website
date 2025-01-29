@@ -59,7 +59,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div id="contact" className="bg-white py-10 px-4 md:px-12 lg:px-24">
+    <div className="bg-white py-10 px-4 md:px-12 lg:px-24">
       <h2 className="text-center text-3xl font-bold text-gray-800 mb-8">
         Envoyez-nous un message
       </h2>
@@ -89,7 +89,7 @@ const ContactForm = () => {
         </div>
 
         {/* Formulaire de contact */}
-        <form
+        <form id="contact"
           onSubmit={handleSubmit}
           className="bg-gray-50 p-6 rounded-lg shadow-md grid grid-cols-1 gap-6"
         >
