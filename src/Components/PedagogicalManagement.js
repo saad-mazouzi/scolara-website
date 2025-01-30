@@ -21,7 +21,7 @@ const PedagogicalManagement = () => {
     {
       id: 4,
       icon: <FaBox className="text-blue-600 text-xl" />,
-      text: "Gestion simplifiée des notes et des bulletins scolaires..",
+      text: "Gestion simplifiée des notes et des bulletins scolaires.",
     },
   ];
 

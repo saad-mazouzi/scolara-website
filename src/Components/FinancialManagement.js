@@ -16,7 +16,7 @@ const FinancialManagement = () => {
     {
       id: 3,
       icon: <FaPuzzlePiece className="text-purple-600 text-xl" />,
-      text: "Génération automatique des reçus de paiement pour une meilleure traçabilité..",
+      text: "Génération automatique des reçus de paiement pour une meilleure traçabilité.",
     },
     {
       id: 4,
