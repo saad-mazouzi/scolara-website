@@ -63,7 +63,7 @@ const Navbar = () => {
       {/* Buttons for Desktop */}
       <div className="hidden sm:flex space-x-4">
       <a
-        href="https://scolara-front.onrender.com/login"
+        href="https://app.scolara.ma/login"
         className="border-2 border-[#4e7dad] text-[#4e7dad] font-semibold py-2 px-4 rounded-full hover:bg-[#4e7dad] hover:text-white transition-colors duration-300"
       >
         Se connecter
@@ -129,7 +129,7 @@ const Navbar = () => {
             Contactez-Nous
           </a>
           <a  
-            href="https://scolara-front.onrender.com/login"
+            href="https://app.scolara.ma/login"
             className="bg-[#4e7dad] text-white font-semibold py-2 px-4 rounded-full hover:bg-[#3b6c94] transition-colors duration-300"
             onClick={() => setIsMenuOpen(false)}
           >
