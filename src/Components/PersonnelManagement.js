@@ -31,7 +31,7 @@ const PersonnelManagement = () => {
         {/* Image Section */}
         <div className="flex justify-center">
           <img
-            src="/Images/canva6.jpg" // Remplacez par le chemin de votre image
+            src="/Images/canva6.webp" // Remplacez par le chemin de votre image
             alt="Illustration de gestion du personnel"
             className="w-full max-w-lg"
           />

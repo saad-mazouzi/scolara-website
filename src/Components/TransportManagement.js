@@ -46,7 +46,7 @@ const TransportManagement = () => {
         {/* Image Section */}
         <div className="flex justify-center">
           <img
-            src="/Images/canva5.jpg" // Remplacez par le chemin de votre image
+            src="/Images/canva5.webp" // Remplacez par le chemin de votre image
             alt="Illustration de transport"
             className="w-full max-w-lg"
           />

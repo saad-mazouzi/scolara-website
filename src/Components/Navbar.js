@@ -35,7 +35,7 @@ const Navbar = () => {
     >
       {/* Logo Section */}
       <div className="flex items-center space-x-2">
-        <img src="/Images/logo.png" alt="Logo" className="h-20" />
+        <img src="/Images/logo.webp" alt="Logo" className="h-20" />
       </div>
 
       {/* Desktop Navigation Links */}

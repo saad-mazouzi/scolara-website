@@ -46,7 +46,7 @@ const CommunicationSystem = () => {
         {/* Image Section */}
         <div className="flex justify-center">
           <img
-            src="/Images/canva7.jpg" // Remplacez par le chemin de votre image
+            src="/Images/canva7.webp" // Remplacez par le chemin de votre image
             alt="Illustration du système de communication"
             className="w-full max-w-lg"
           />

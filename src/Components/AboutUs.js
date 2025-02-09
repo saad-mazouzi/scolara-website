@@ -21,7 +21,7 @@ const AboutUs = () => {
       {/* Image à droite */}
       <div className="flex-1 mt-10 md:mt-0">
         <img
-          src="/Images/canva1.jpg" // Remplacez par le chemin réel de votre illustration
+          src="/Images/canva1.webp" // Remplacez par le chemin réel de votre illustration
           alt="Illustration gestion"
           className="w-full max-w-lg mx-auto"
         />

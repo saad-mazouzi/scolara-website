@@ -31,7 +31,7 @@ const Features = () => {
         {/* Image Section */}
         <div className="flex justify-center">
           <img
-            src="/Images/canva2.jpg"
+            src="/Images/canva2.webp"
             alt="Illustration de gestion"
             className="w-full max-w-lg"
           />
