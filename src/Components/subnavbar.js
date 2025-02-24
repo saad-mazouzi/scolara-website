@@ -9,7 +9,7 @@ const SubNavbar = () => {
         <span>
           <a href="mailto:scolara.contact@gmail.com" className="flex items-center space-x-1">
             <span>📧</span>
-            <span>scolara.contact@gmail.com</span>
+            <span>contact@scolara.ma</span>
           </a>
         </span>
         <span className="flex items-center space-x-1">
