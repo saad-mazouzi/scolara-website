@@ -71,16 +71,16 @@ const ContactForm = () => {
             Nous sommes à votre disposition pour répondre à toutes vos questions.
           </p>
           <div className="mb-6 flex items-start">
-            <FaEnvelope className="text-yellow-500 text-2xl mr-4" />
+            <FaEnvelope className="text-[#ffcc00] text-2xl mr-4" />
             <div>
               <h4 className="font-semibold text-lg mb-2">
                 Connectez-vous avec nous
               </h4>
-              <p className="text-sm">scolara.contact@gmail.com</p>
+              <p className="text-sm">contact@scolara.ma</p>
             </div>
           </div>
           <div className="flex items-start">
-            <FaPhoneAlt className="text-yellow-500 text-2xl mr-4" />
+            <FaPhoneAlt className="text-[#ffcc00] text-2xl mr-4" />
             <div>
               <h4 className="font-semibold text-lg mb-2">Appelez-nous</h4>
               <p className="text-sm">+212 691581813</p>
