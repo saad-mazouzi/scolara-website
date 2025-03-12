@@ -1,5 +1,5 @@
 import React from "react";
-import { FaClock, FaPhone } from "react-icons/fa";
+import { FaClock, FaPhone, FaWhatsapp } from "react-icons/fa";
 
 const SubNavbar = () => {
   return (
@@ -19,11 +19,11 @@ const SubNavbar = () => {
       </div>
 
       {/* Right Section */}
-      <div className="flex items-center space-x-4 mt-2 sm:mt-0">
+      <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4 mt-2 sm:mt-0">
         {/* Phone Number */}
         <a
           href="tel:0691581813"
-          className="flex items-center space-x-2"
+          className="flex items-center space-x-2 w-full sm:w-auto justify-center"
           style={{
             backgroundColor: "#4e7dad",
             color: "white",
@@ -34,6 +34,24 @@ const SubNavbar = () => {
         >
           <FaPhone />
           <span>06 91 58 18 13</span>
+        </a>
+
+        {/* WhatsApp Button */}
+        <a
+          href="https://wa.me/212691581813?text=Bonjour,%20je%20souhaite%20avoir%20plus%20d'informations."
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center space-x-2 w-full sm:w-auto justify-center"
+          style={{
+            backgroundColor: "#25D366",
+            color: "white",
+            padding: "0.5rem 1rem",
+            borderRadius: "0.5rem",
+            textDecoration: "none",
+          }}
+        >
+          <FaWhatsapp />
+          <span>WhatsApp</span>
         </a>
       </div>
     </div>
