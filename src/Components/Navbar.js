@@ -33,9 +33,11 @@ const Navbar = () => {
         isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
       }`}
     >
-      {/* Logo Section */}
+      {/* Logo Section - Ajout d'un lien vers scolara.ma */}
       <div className="flex items-center space-x-2">
-        <img src="/Images/logo.webp" alt="Logo" className="h-20" />
+        <a href="https://scolara.ma">
+          <img src="/Images/logo.webp" alt="Logo" className="h-20 cursor-pointer" />
+        </a>
       </div>
 
       {/* Desktop Navigation Links */}
