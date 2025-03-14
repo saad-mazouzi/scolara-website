@@ -8,27 +8,64 @@ const AdminVideo = () => {
         {/* Section Description (Gauche) */}
         <div className="flex flex-col">
           <h2 className="text-4xl font-bold text-gray-800 mb-6 leading-tight">
-            Découvrez <span className="text-[#4e7dad]">l'Espace Admin </span> de Scolara.ma
+            Découvrez <span className="text-[#4e7dad]">l'Espace Admin</span> de Scolara.ma
           </h2>
           <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-            L’<strong>Espace Admin</strong> de <strong>Scolara.ma</strong> est conçu pour simplifier la gestion scolaire.
-            En quelques clics, vous pouvez <strong>gérer toute votre école</strong> :
+            L’<strong>Espace Admin</strong> de <strong>Scolara.ma</strong> centralise toutes les fonctionnalités nécessaires à une gestion 
+            **complète et efficace** de votre établissement scolaire :
           </p>
+
           <ul className="space-y-3 text-gray-700 text-lg">
+            {/* Gestion Générale */}
             <li className="flex items-center">
-              <span className="text-2xl mr-3">📋</span> Gestion des élèves, enseignants et personnel administratif
+              <span className="text-2xl mr-3">📊</span> Tableau de bord et statistiques en temps réel
+            </li>
+
+            {/* Gestion des Ressources Humaines */}
+            <li className="flex items-center">
+              <span className="text-2xl mr-3">👨‍🏫</span> Gestion des enseignants (salaires, absences, emploi du temps)
+            </li>
+            <li className="flex items-center">
+              <span className="text-2xl mr-3">📚</span> Gestion des étudiants et inscriptions
+            </li>
+            <li className="flex items-center">
+              <span className="text-2xl mr-3">🚍</span> Gestion des chauffeurs et transports scolaires
+            </li>
+            <li className="flex items-center">
+              <span className="text-2xl mr-3">👨‍👩‍👦</span> Gestion des parents et suivi des élèves
+            </li>
+
+            {/* Gestion Pédagogique */}
+            <li className="flex items-center">
+              <span className="text-2xl mr-3">🏫</span> Gestion des niveaux d’éducation et matières
+            </li>
+            <li className="flex items-center">
+              <span className="text-2xl mr-3">📖</span> Gestion des cours et supports pédagogiques
             </li>
             <li className="flex items-center">
               <span className="text-2xl mr-3">📅</span> Automatisation des emplois du temps
             </li>
             <li className="flex items-center">
-              <span className="text-2xl mr-3">💳</span> Suivi des paiements et gestion financière
+              <span className="text-2xl mr-3">📝</span> Gestion des notes et bulletins scolaires
             </li>
             <li className="flex items-center">
-              <span className="text-2xl mr-3">📩</span> Communication fluide avec les parents et enseignants
+              <span className="text-2xl mr-3">📋</span> Génération automatique de la liste d’appel
+            </li>
+
+            {/* Gestion Financière */}
+            <li className="flex items-center">
+              <span className="text-2xl mr-3">💰</span> Suivi des paiements et gestion financière
             </li>
             <li className="flex items-center">
-              <span className="text-2xl mr-3">🚍</span> Suivi en <strong> temps réel </strong> du transport scolaire
+              <span className="text-2xl mr-3">📊</span> Gestion des dépenses et revenus
+            </li>
+
+            {/* Communication et Suivi */}
+            <li className="flex items-center">
+              <span className="text-2xl mr-3">💬</span> Système de chat intégré (élèves, parents, enseignants)
+            </li>
+            <li className="flex items-center">
+              <span className="text-2xl mr-3">⭐</span> Suivi des avis et feedbacks des parents et élèves
             </li>
           </ul>
         </div>

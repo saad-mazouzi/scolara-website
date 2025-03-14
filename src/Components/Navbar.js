@@ -41,13 +41,13 @@ const Navbar = () => {
       {/* Desktop Navigation Links */}
       <div className="hidden md:flex space-x-8">
         <a
-          href="#"
+          href="https://scolara.ma"
           className="text-gray-700 hover:text-[#4e7dad] font-medium"
         >
           Accueil
         </a>
         <a
-          href="#features"
+          href="https://scolara.ma/#features"
           className="text-gray-700 hover:text-[#4e7dad] font-medium"
         >
           Fonctionnalité
@@ -115,14 +115,14 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="absolute top-full left-0 w-full bg-white shadow-lg flex flex-col items-center space-y-4 py-4">
           <a
-            href="#"
+            href="https://scolara.ma"
             className="text-gray-700 hover:text-[#4e7dad] font-medium"
             onClick={() => setIsMenuOpen(false)}
           >
             Accueil
           </a>
           <a
-            href="#features"
+            href="https://scolara.ma/#features"
             className="text-gray-700 hover:text-[#4e7dad] font-medium"
             onClick={() => setIsMenuOpen(false)}
           >
