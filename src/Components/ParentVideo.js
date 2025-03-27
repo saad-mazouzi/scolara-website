@@ -11,7 +11,7 @@ const ParentVideo = () => {
             Découvrez <span className="text-[#4e7dad]">l'Espace Parent</span> de Scolara.ma
           </h2>
           <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-            L’<strong>Espace Parent</strong> de <strong>Scolara.ma</strong> permet aux parents de **suivre en temps réel la scolarité** de leurs enfants.
+            L’<strong>Espace Parent</strong> de <strong>Scolara.ma</strong> permet aux parents de <strong> suivre en temps réel la scolarité</strong> de leurs enfants.
             Grâce à une interface intuitive, chaque parent peut :
           </p>
           <ul className="space-y-3 text-gray-700 text-lg">

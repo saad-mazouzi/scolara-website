@@ -12,7 +12,7 @@ const AdminVideo = () => {
           </h2>
           <p className="text-lg text-gray-700 mb-6 leading-relaxed">
             L’<strong>Espace Admin</strong> de <strong>Scolara.ma</strong> centralise toutes les fonctionnalités nécessaires à une gestion 
-            **complète et efficace** de votre établissement scolaire :
+            <strong> complète et efficace </strong> de votre établissement scolaire :
           </p>
 
           <ul className="space-y-3 text-gray-700 text-lg">
