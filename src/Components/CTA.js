@@ -39,7 +39,7 @@ const CTA = () => {
         >
           {/* Remplacer le lien mail par un Link vers la page de contact */}
           <Link
-            to="/contactez-nous"  // Lien vers la page de contact
+            to="/contactez-nous-footer"  // Lien vers la page de contact
             className="inline-block bg-[#ffcc00] text-[#4e7dad] hover:bg-[#ffcc00] text-lg font-semibold py-3 px-6 rounded-lg transition duration-300"
           >
             Contactez-Nous
