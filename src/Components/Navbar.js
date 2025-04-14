@@ -82,7 +82,7 @@ const Navbar = () => {
 
         {/* Remplacer le href="#contact" par Link pour la demande de devis */}
         <Link
-          to="/contactez-nous"  // Lien interne vers la page Demander un devis
+          to="/contactez-nous-footer"  // Lien interne vers la page Demander un devis
           className="bg-gradient-to-r from-[#4e7dad] to-[#ffcc00] text-white font-semibold py-2 px-4 rounded-full hover:bg-[#4e7dad] hover:text-white transition-colors duration-300"
         >
           Demander Un Devis
@@ -143,7 +143,7 @@ const Navbar = () => {
           </Link>
           {/* Remplacer href="#demander-devis" par Link pour la demande de devis */}
           <Link
-            to="/contactez-nous"  // Lien interne vers la page Demander un devis
+            to="/contactez-nous-footer"  // Lien interne vers la page Demander un devis
             className="bg-gradient-to-r from-[#4e7dad] to-[#ffcc00] text-white font-semibold py-2 px-4 rounded-full hover:bg-[#4e7dad] hover:text-white transition-colors duration-300"
             onClick={() => setIsMenuOpen(false)}
           >
