@@ -15,6 +15,10 @@ import FeatureCardsGrid from "./Components/FeatureCardsGrid";
 import ContactForm from "./Components/ContactForm";
 import AdminVideo from "./Components/AdminVideo";  // Import du composant vidéo Admin
 import Decouvrir from "./Components/Decouvrir";
+import TCA from "./Components/CTA"; // Import du composant CTA
+import Footer from "./Components/Footer"; // Import du composant Footer
+import ContactPage from "./Components/ContactPage";
+import DecouvrirPage from "./Components/DecouvrirPage";
 
 function App() {
   return (
@@ -35,12 +39,19 @@ function App() {
               <PersonnelManagement />
               <CommunicationSystem />
               <FeatureCardsGrid />
+              <div className="mt-12">
+                <TCA />
+              </div>
               <ContactForm />
+              <Footer />
             </>
           } />
           
           {/* Route spécifique pour la vidéo de l’espace Admin */}
           <Route path="/decouvrir" element={<Decouvrir/>} />
+          <Route path="/contactez-nous" element={<ContactForm/>} />
+          <Route path="/contactez-nous-footer" element={<ContactPage />} />
+          <Route path="/decouvrir-page" element={<DecouvrirPage />} />
         </Routes>
       </div>
     </Router>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaEnvelope, FaPhoneAlt } from "react-icons/fa";
+import Footer from "./Footer";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -156,6 +157,7 @@ const ContactForm = () => {
         </form>
       </div>
     </div>
+
   );
 };
 

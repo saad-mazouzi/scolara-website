@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";  // Importer Link de react-router-dom pour la redirection interne
 
 const Navbar = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -52,14 +53,15 @@ const Navbar = () => {
           href="https://scolara.ma/#features"
           className="text-gray-700 hover:text-[#4e7dad] font-medium"
         >
-          Fonctionnalité
+          Fonctionnalités
         </a>
-        <a
-          href="#contact"
+        {/* Remplacer le href="#contact" par Link */}
+        <Link
+          to="/contactez-nous-footer"  // Lien interne vers la page Contactez-Nous
           className="text-gray-700 hover:text-[#4e7dad] font-medium"
         >
           Contactez-Nous
-        </a>
+        </Link>
       </div>
 
       {/* Buttons for Desktop */}
@@ -72,18 +74,19 @@ const Navbar = () => {
         </a>
 
         <a
-          href="/decouvrir"
+          href="/decouvrir-page"
           className="border-2 border-[#ffcc00] text-[#ffcc00] font-semibold py-2 px-4 rounded-full hover:bg-[#ffcc00] hover:text-white transition-colors duration-300"
         >
           Découvrir Scolara.ma
         </a>
 
-        <a
-          href="#contact"
+        {/* Remplacer le href="#contact" par Link pour la demande de devis */}
+        <Link
+          to="/contactez-nous"  // Lien interne vers la page Demander un devis
           className="bg-gradient-to-r from-[#4e7dad] to-[#ffcc00] text-white font-semibold py-2 px-4 rounded-full hover:bg-[#4e7dad] hover:text-white transition-colors duration-300"
         >
           Demander Un Devis
-        </a>
+        </Link>
       </div>
 
       {/* Mobile Menu Button */}
@@ -128,15 +131,24 @@ const Navbar = () => {
             className="text-gray-700 hover:text-[#4e7dad] font-medium"
             onClick={() => setIsMenuOpen(false)}
           >
-            Fonctionnalité
+            Fonctionnalités
           </a>
-          <a
-            href="#contact"
+          {/* Remplacer href="#contact" par Link pour la navigation interne */}
+          <Link
+            to="/contactez-nous"  // Lien interne vers la page Contactez-Nous
             className="text-gray-700 hover:text-[#4e7dad] font-medium"
             onClick={() => setIsMenuOpen(false)}
           >
             Contactez-Nous
-          </a>
+          </Link>
+          {/* Remplacer href="#demander-devis" par Link pour la demande de devis */}
+          <Link
+            to="/contactez-nous"  // Lien interne vers la page Demander un devis
+            className="bg-gradient-to-r from-[#4e7dad] to-[#ffcc00] text-white font-semibold py-2 px-4 rounded-full hover:bg-[#4e7dad] hover:text-white transition-colors duration-300"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Demander Un Devis
+          </Link>
           <a  
             href="https://app.scolara.ma/login"
             className="bg-[#4e7dad] text-white font-semibold py-2 px-4 rounded-full hover:bg-[#3b6c94] transition-colors duration-300"
@@ -150,13 +162,6 @@ const Navbar = () => {
             onClick={() => setIsMenuOpen(false)}
           >
             Découvrir Scolara.ma
-          </a>
-          <a
-            href="#contact"
-            className="bg-gradient-to-r from-[#4e7dad] to-[#ffcc00] text-white font-semibold py-2 px-4 rounded-full hover:bg-[#4e7dad] hover:text-white transition-colors duration-300"
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Demander Un Devis
           </a>
         </div>
       )}
